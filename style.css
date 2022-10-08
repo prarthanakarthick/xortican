@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display-4 {
+    font-weight: 600 !important;
+}
+
+.borbot {
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.city {
+    background-image: url(../xortican/images/city.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cards {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 10px 10px white;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.skills {
+    background-image: url(../xortican/images/Skill.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.people {
+    background-image: url(../xortican/images/bicycle.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.career{
+    background-image: url(../xortican/images/job.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.borsoc {
+    background-color: #9DAFCC;
+    padding: 25px 20px 15px 20px;
+    margin-right: 8px;
+}
+
+.formss{
+    border: 1px solid black;
+    background-color: #ccced9;
+    margin-top: 15px;
+}
+
+.navbar a:hover{
+    color:green!important;
+}
+
+.carousel-item .btn:hover{
+    background-color: black!important;
+    border: black!important;
+}
+
+.people a:hover{
+    color: green!important;
+ 
+}
+
+.social-media a:hover{
+    color: white!important;
+    background-color: rgb(24, 102, 204);
+}
+
+
+
+
+
+@media(min-width:768px) {
+    .float {
+        display: none;
+    }
+
+}
+
+@media(max-width:768px) {
+    .caro1 .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .caro1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .caro1 .carousel-item .btn {
+        margin-top: 0 !important;
+        width: 80px !important;
+        font-size: 0.6rem;
+    }
+.skills h5{
+    color: white!important;
+}
+.skills h6{
+    color: white!important;
+   
+}
+.skills hr{
+    border-color: white!important;
+}
+.contact .contacts{
+    padding: 0!important;
+}
+.career .container-fluid{
+    padding: 0!important;
+
+}
+}
+@media(max-width:1000px){
+    .caro1 .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .caro1 h1 {
+        font-size: 1.5rem;
+
+    }
+}
+@media(max-width:576px) {
+    .caro1 .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .caro1 h1 {
+        font-size: 1rem;
+
+    }
+
+    .caro2 .container-fluid {
+        padding: 0 !important;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .cards h3 {
+        font-size: 1.5rem;
+    }
+
+    .services .row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+
+    .fa-2x {
+        font-size: 15px!important;
+    }
+
+    .borsoc {
+        padding: 12px 10px 7px 10px;
+        margin-right: 5px;
+    }
+    .social-media .row{
+        padding-left: 0!important;
+        padding-right: 0 !important;
+
+    }
+}
+
+@media(max-width:500px) {
+    .caro1 .display-4 {
+        font-size: 1rem;
+    }
+
+    .caro1 h1 {
+        font-size: 0.8rem;
+
+    }
+}
